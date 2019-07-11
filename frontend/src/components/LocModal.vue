@@ -1,5 +1,5 @@
 <template>
-  <div class="ModalContiner">
+  <div class="ModalContainer">
     <div class="modalMain">
       <input type="text" v-model="address" placeholder="your full address">
       <button @click="saveAddress">save</button>
@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style lang="scss" >
-.ModalContiner {
+.ModalContainer {
   display: flex;
   flex-direction: column;
   position: absolute;
